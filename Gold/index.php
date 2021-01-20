@@ -187,67 +187,59 @@
         
          
       </div>
-       <!-- end of fashion Men -->
+       <!-- end of web project -->
 
 
        <div class="fashionBox women">
         <div class="fashionTxt">
-          <h2><em>WOMEN</em> FASHION</h2>
+          <h2><em>APP</em> PROJECTS</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <a href="#">VIEW MORE</a>
         </div>
+
+
+        <?php
+          // include $_SERVER["DOCUMENT_ROOT"]."/Gold/php_process/connect/db_connect.php";
+          $sql="select * from gold_app order by GOLD_APP_num desc limit 3";
+
+
+          $app_result = mysqli_query($dbConn, $sql);
+          
+          while($app_row = mysqli_fetch_array($app_result)){
+            $app_num = $app_row['GOLD_APP_num'];
+            $app_thumb = $app_row['GOLD_APP_thumb'];
+            $app_tit = $app_row['GOLD_APP_tit'];
+            $app_des = $app_row['GOLD_APP_des'];
+            
+
+         ?>
+
+
+
+        <!-- app box loop start  -->
         <div class="fashionImg">
           <div>
-           <img src="img/product-type-1.jpg" alt="">
-         </div>
+            <img src="/Gold/data/app_page/app_thumb/<?=$app_thumb?>" alt="">
+            <h2><?=$app_tit?></h2>
+            <em class="cutTxt"><?=$app_des?></em>
+            <a href="/Gold/pages/app/app_detail.php?num=<?=$app_num?>">View Details</a>
+          </div>
         </div>
-        <div class="fashionImg">
-          <div>
-           <img src="img/women-2.jpg" alt="">
-         </div>
-        </div>
-        <div class="fashionImg">
-          <div>
-           <img src="img/product-type-2.jpg" alt="">
-         </div>
+        <!-- end of loop box -->
+
+        <?php
+          }
+        ?>
+
         </div>
        </div>
       </div>
     </section>
-    <!-- end of Ours section -->
+    <!-- end of preview section -->
 
-    <!-- <section class="contents about hasTitle">
-      <div class="center clear">
-        <div class="title">
-          <h2>ABOUT US</h2>
-          <div class="subTit">
-            <span class="subLine"></span>
-            <a href="#" class="subLink">View More Details</a> 
-          </div>
-        </div>
-       end of title -->
-        <!-- <div class="aboutTxt">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          </p>
-          <p class="address">
-            South Korea, Seoul, Kangnam-Gu, Seocho-Dong | 
-            <a href="#">admin@gold-design.com</a>
-          </p>
+    
 
-          <ul class="sns">
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
-            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-        </ul>
-        </div>
 
-      </div>
-
-    </section>
-    end of about section -->
     <?php include $_SERVER["DOCUMENT_ROOT"]."/Gold/include/about.php" ?>
 
 

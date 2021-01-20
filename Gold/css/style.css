@@ -30,7 +30,7 @@ button.commonBtn{
   width: 30%;
   text-align: center;
   transition: all 0.4s;
-
+  background: #fff;
   margin-top: 10px;;
 }
 

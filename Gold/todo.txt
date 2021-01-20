@@ -9,4 +9,3 @@
 
           include $_SERVER["DOCUMENT_ROOT"]."/Gold/php_process/connect/db_connect.php";
 
-
