@@ -194,10 +194,14 @@ design detail page style
 
 .deWeRight{width: 40%; height: auto; float: right; padding-left: 5%;}
 .deWeRight .detailWeb{width: 100%; height: auto; margin-bottom: 25px;}
-.deWeRight .webTit{width: 100%; height: auto; padding:0 0 15px 0; border-bottom:1px solid #d0af51; display:flex; justify-content: space-between; align-items: baseline; }
-.deWeRight .webTit h2{font-size:22px; font-weight:500; text-transform:uppercase;}
-.deWeRight .webTit a{color:#d0af51; }
-.deWeRight .webTit a:hover{text-decoration: underline;}
+.deWeRight .webTit,
+.deWeRight .appTit{width: 100%; height: auto; padding:0 0 15px 0; border-bottom:1px solid #d0af51; display:flex; justify-content: space-between; align-items: baseline; }
+.deWeRight .webTit h2,
+.deWeRight .appTit h2{font-size:22px; font-weight:500; text-transform:uppercase;}
+.deWeRight .webTit a,
+.deWeRight .appTit a{color:#d0af51; }
+.deWeRight .webTit a:hover,
+.deWeRight .appTit a:hover{text-decoration: underline;}
 
 
 
@@ -261,9 +265,9 @@ web detail page style
 
 
 
-/* *************
+/* *******************************
 app page style
-************** */
+********************************* */
 .appBoxes .appBox,
 .appBoxes .appBox-sizer{width: 25%;}
 .appBoxes .appBox{padding: 5px;}
@@ -274,4 +278,16 @@ app page style
 .appBoxes .appBox img{width: 100%;}
 
 
+
+
+/* **********************************
+app detail page style
+************************************* */
+
+.appFrameBox{width: 50%; position: relative; overflow: hidden; height: 545px; position: relative;}
+.appFrameBox>.appImgBox{position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden;}
+.appFrameBox>.appImgBox img{width: 100%;}
+#appMain>li{height: 95%;}
+#appMain>li>img{width: 98%;}
+.appFrameBox>.appMain.appImgBox>li>img{height: 100%;}
 

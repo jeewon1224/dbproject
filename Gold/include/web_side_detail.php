@@ -6,20 +6,20 @@
             <!-- end of webTit -->
 
             <?php
-          include $_SERVER["DOCUMENT_ROOT"]."/Gold/php_process/connect/db_connect.php";
-          $sql="select * from gold_web order by GOLD_WEB_num desc limit 3";
+              include $_SERVER["DOCUMENT_ROOT"]."/Gold/php_process/connect/db_connect.php";
+              $sql="select * from gold_web order by GOLD_WEB_num desc limit 3";
 
 
-          $web_side_result = mysqli_query($dbConn, $sql);
-          
-          while($web_side_row = mysqli_fetch_array($web_side_result)){
-            $web_side_num = $web_side_row['GOLD_WEB_num'];
-            $web_side_thumb = $web_side_row['GOLD_WEB_thumb'];
-            $web_side_tit = $web_side_row['GOLD_WEB_tit'];
-            $web_side_des = $web_side_row['GOLD_WEB_des'];
-            
+              $web_side_result = mysqli_query($dbConn, $sql);
+              
+              while($web_side_row = mysqli_fetch_array($web_side_result)){
+                $web_side_num = $web_side_row['GOLD_WEB_num'];
+                $web_side_thumb = $web_side_row['GOLD_WEB_thumb'];
+                $web_side_tit = $web_side_row['GOLD_WEB_tit'];
+                $web_side_des = $web_side_row['GOLD_WEB_des'];
+                
 
-         ?>
+            ?>
 
 
 

@@ -194,7 +194,7 @@
         <div class="fashionTxt">
           <h2><em>APP</em> PROJECTS</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          <a href="#">VIEW MORE</a>
+          <a href="/Gold/pages/app/app.php">VIEW MORE</a>
         </div>
 
 
