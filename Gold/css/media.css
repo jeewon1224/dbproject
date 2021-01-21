@@ -101,6 +101,9 @@
   .appBoxes .appBox-sizer{width: 33.33%;}
 
 
+  /* app detail page style */
+  .appFramebox>span.frameTop{background-size: contain;}
+
 }
 
 
@@ -169,6 +172,10 @@
   .appBoxes .appBox>div h2{font-size:18px;}
   .appBoxes .appBox>div a{padding: 5px 0; font-size:12px;}
 
+
+
+   /* app detail page style */
+   .appFramebox>span.frameTop{background-size: cover;}
 }
 
 
@@ -229,6 +236,10 @@
 
 
   .webTabBtns{text-align: center;}
+
+
+   /* app detail page style */
+   .appFramebox>span.frameTop{background-size: cover;}
 }
 
 
@@ -359,6 +370,12 @@
 
   /* web page style */
   .deWeBoxes .deWeBox.webBox{width: 100%;}
+
+
+   /* app detail page style */
+   .appFramebox{width: 70%;}
+   .appFramebox>span.frameTop{background-size: cover;}
+   .appFramebox>span.frameBottom{background-size: cover;}
 
 }
 

@@ -74,8 +74,8 @@ $app_detail_reg=$app_row['GOLD_APP_reg'];
           <!-- end of title -->
           
           <div class="detailCon">
-            <div class="appFrameBox">
-              <ul class="appMain appImgBox" id="appMain">
+            <div class="appFramebox">
+              <ul id="appMain">
                 <li>
                   <img src="/Gold/data/app_page/app_main/app_main_001.png" alt="">
                 </li>
@@ -86,22 +86,23 @@ $app_detail_reg=$app_row['GOLD_APP_reg'];
                   <img src="/Gold/data/app_page/app_main/app_main_003.png" alt="">
                 </li>
               </ul>
-              <div class="appFrame appImgBox">
-                <img src="/Gold/img/app_frame.png" alt="">
-              </div>
+              <span class="frameTop"></span>
+              <span class="frameLeft"></span>
+              <span class="frameRIght"></span>
+              <span class="frameBottom"></span>
             </div>
-            <!-- end of appFrame -->
-
 
 
             <p class="detailInfo">
-                Projected By Gold Dev. Team / <?=$app_detail_ser?> / Used in <?=$app_detail_cli?> / <?=$app_detail_reg?>
-              </p>
+              Projected By Gold Dev. Team / <?=$app_detail_ser?> / Used in <?=$app_detail_cli?> / <?=$app_detail_reg?>
+            </p>
 
-              <div class="detailDesc">
-                <p><?=$app_detail_des?></p>
-                <a href="/Gold/index.php#contact"><i class="fa fa-arrow-right"></i>Get In Touch With...</a>
-              </div>
+            <div class="detailDesc">
+              <p><?=$app_detail_des?></p>
+              <a href="/Gold/index.php#contact"><i class="fa fa-arrow-right"></i>Get In Touch With...</a>
+            </div>
+            <!-- end of app detail description -->
+
           </div>
           <!-- end of app detail Con -->
         </div>
@@ -139,13 +140,20 @@ $app_detail_reg=$app_row['GOLD_APP_reg'];
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/Gold/plugin/lightslider.js"></script>
     <script src="/Gold/js/custom.js"></script>
-    <script src="/Gold/js/web_detail.js"></script>
+    <script src="/Gold/js/web_detail.js"></script> 
+    <!-- 웹 디테일 앱디테일 글자 자르는 방식 똑같아서 그냥 앱디테일 js 안만들고 가져옴 -->
     <script>
       $(function(){
+        //lightslider 옵션 참조 : https://sseung-fire.tistory.com/18 
+        //lightslider documentation : http://sachinchoolur.github.io/lightslider/examples.html
         $("#appMain").lightSlider({
           loop:true,
           keyPress:true,
-          item:1
+          item:1,
+          auto: true,
+          speed:500,
+          controls: false
+         
         });
       });
     </script>

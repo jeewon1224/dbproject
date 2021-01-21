@@ -71,7 +71,7 @@
         <?php
         }else{
         ?>
-        <a href="#" class="commonBtn webLoadMore">Load More</a>
+        <button class="commonBtn appLoadMore">Load More</button>
         <a href="#" class="commonBtn toTop">Go To Top</a>
 
         

@@ -283,11 +283,14 @@ app page style
 /* **********************************
 app detail page style
 ************************************* */
+.appFramebox{width: 50%; position: relative;margin: 0 auto 25px;}
+.appFramebox img{width: 95%; margin: auto;}
 
-.appFrameBox{width: 50%; position: relative; overflow: hidden; height: 545px; position: relative;}
-.appFrameBox>.appImgBox{position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden;}
-.appFrameBox>.appImgBox img{width: 100%;}
-#appMain>li{height: 95%;}
-#appMain>li>img{width: 98%;}
-.appFrameBox>.appMain.appImgBox>li>img{height: 100%;}
+.appFramebox>span{position: absolute; display: block; background: #ddd;}
+.appFramebox>span.frameTop{width: 100%; height: 30px; top:0; left: 0; background: url(/Gold/img/frame_top.png) no-repeat top center; background-size: cover;}
+.appFramebox>span.frameLeft{height: 100%; width: 20px; top:0; left: 0; background: url(/Gold/img/frame_right.png) no-repeat left center; background-size: cover;}
+.appFramebox>span.frameRIght{height: 100%; width: 20px; top:0; right: 0; background: url(/Gold/img/frame_left.png) no-repeat right center; background-size: cover;} 
+.appFramebox>span.frameBottom{width: 100%; height: 30px; bottom: 0; right: 0; background: url(/Gold/img/frame_bottom.png) no-repeat bottom center; background-size: cover;}
 
+
+.lSAction{display: none;}
