@@ -101,26 +101,34 @@
     </div>
     <!-- end of topMain -->
 
-<script>
+
+
+    <script>
   const pathname = window.location.pathname;
   const gnbLi = document.querySelectorAll('.gnb li');
 
-  for(let i=0; i<gnbLi.length; i++){
-    gnbLi[i].classList.remove('active'); //반복하면서 active라는 클래스를 없애주는 것을 반복
+  for(let i = 0; i < gnbLi.length; i++){
+    gnbLi[i].classList.remove('active');
   }
 
   if(pathname.includes('index')){
     gnbLi[0].classList.add('active');
-  }else if(pathname.includes('design')){
+  } else if(pathname.includes('design')){
     gnbLi[1].classList.add('active');
-  }else if(pathname.includes('web')){
+  } else if(pathname.includes('web')){
     gnbLi[2].classList.add('active');
-  }else if(pathname.includes('app')){
+  } else if(pathname.includes('app')){
     gnbLi[3].classList.add('active');
   }else if(pathname.includes('qna')){
     gnbLi[5].classList.add('active');
-
-
-
-  // console.log(gnbLi);
+  }
+  //console.log(gnbLi);
 </script>
+
+
+
+
+
+
+
+
