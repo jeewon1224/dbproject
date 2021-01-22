@@ -92,7 +92,7 @@
           <li><a href="/Gold/pages/web/web.php">WEB</a></li>
           <li><a href="/Gold/pages/app/app.php">APP</a></li>
           <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="/Gold/pages/qna/qna.php">Q&A</a></li>
         </ul>
         <div class="mobileMenu">
           <i class="fa fa-bars"></i>
@@ -106,7 +106,7 @@
   const gnbLi = document.querySelectorAll('.gnb li');
 
   for(let i=0; i<gnbLi.length; i++){
-    gnbLi[i].classList.remove('active'); //6개 전부 돌면서 active라는 클래스를 없애주는 것을 반복
+    gnbLi[i].classList.remove('active'); //반복하면서 active라는 클래스를 없애주는 것을 반복
   }
 
   if(pathname.includes('index')){
@@ -117,7 +117,8 @@
     gnbLi[2].classList.add('active');
   }else if(pathname.includes('app')){
     gnbLi[3].classList.add('active');
-  }
+  }else if(pathname.includes('qna')){
+    gnbLi[5].classList.add('active');
 
 
 

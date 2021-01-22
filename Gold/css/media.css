@@ -377,6 +377,8 @@
    .appFramebox>span.frameTop{background-size: cover;}
    .appFramebox>span.frameBottom{background-size: cover;}
 
+
+   .appStoreBtns{width: 40%;}
 }
 
 /* 

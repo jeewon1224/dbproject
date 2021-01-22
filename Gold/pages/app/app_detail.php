@@ -12,7 +12,7 @@ $app_row=mysqli_fetch_array($app_result);
 $app_detail_tit=$app_row['GOLD_APP_tit'];
 $app_detail_ser=$app_row['GOLD_APP_ser'];
 $app_detail_des=$app_row['GOLD_APP_des'];
-// $app_detail_img=$app_row['GOLD_APP_img'];
+$app_detail_img=$app_row['GOLD_APP_img'];
 // $app_detail_mImg=$app_row['GOLD_APP_mimg'];
 // // $app_detail_thumb=$app_row['GOLD_APP_thumb'];
 $app_detail_cli=$app_row['GOLD_APP_cli'];
@@ -77,19 +77,24 @@ $app_detail_reg=$app_row['GOLD_APP_reg'];
             <div class="appFramebox">
               <ul id="appMain">
                 <li>
-                  <img src="/Gold/data/app_page/app_main/app_main_001.png" alt="">
+                  <img src="/Gold/data/app_page/app_main/<?=$app_detail_img?>" alt="">
                 </li>
                 <li>
-                  <img src="/Gold/data/app_page/app_main/app_main_002.jpg" alt="">
+                  <img src="/Gold/data/app_page/app_main/app_main_005.png" alt="">
                 </li>
                 <li>
-                  <img src="/Gold/data/app_page/app_main/app_main_003.png" alt="">
+                  <img src="/Gold/data/app_page/app_main/app_main_006.png" alt="">
                 </li>
               </ul>
               <span class="frameTop"></span>
               <span class="frameLeft"></span>
               <span class="frameRIght"></span>
               <span class="frameBottom"></span>
+            </div>
+
+            <div class="appStoreBtns">
+              <a href="#"><img src="/Gold/img/app_store.jpg" alt=""></a>
+              <a href="#"><img src="/Gold/img/google_play.jpg" alt=""></a>
             </div>
 
 

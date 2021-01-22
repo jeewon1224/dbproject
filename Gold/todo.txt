@@ -6,6 +6,13 @@
 6.웹페이지 완료 후 전체 파일 구조 설계 및 1차 호스팅
 7. web page js load more 기능 리펙토링
 8. index.php 파일 fashion 위치 클래스 이름 변경
+9. resize함수 한번만 실행 기능
+10. 앱 데이터 베이스 메인 사진 2장 추가 테이블 컬럼 추가
+11. 앱 상품 입력 페이지 메인 사진 2장 추가 업로드 화면 추가
+12. 앱 데이터 베이스 구글플레이, 앱스토어 주소 테이블 컬럼 추가
+13. 앱 앱데이터베이스 구글플레이, 앱스토어 주소 입력 화면 추가 제작
+
+
 
           include $_SERVER["DOCUMENT_ROOT"]."/Gold/php_process/connect/db_connect.php";
 
