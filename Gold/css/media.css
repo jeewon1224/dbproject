@@ -104,6 +104,10 @@
   /* app detail page style */
   .appFramebox>span.frameTop{background-size: contain;}
 
+
+  /* qna page style */
+  .qnaBoxes .searchSelect{width: 25%;}
+  .qnaBoxes .qnaSearchInput{width: 60%;}
 }
 
 
@@ -176,6 +180,18 @@
 
    /* app detail page style */
    .appFramebox>span.frameTop{background-size: cover;}
+
+
+   /* qna page style */
+   .qnaBoxes .searchPaging>div{width: 100%;}
+   .qnaBoxes .qnaSearch{display: flex; justify-content: space-evenly;}
+   .qnaBoxes .qnaSearchBtn{width: 10%;}
+   .qnaBoxes .searchPaging>div.paging{justify-content: center;}
+
+   .qnaBoxes .writeBox p label{font-size: 12px;}
+   .qnaBoxes .writeBox p input{font-size: 12px;}
+   .qnaBoxes .writeBox p textarea{font-size: 12px;}
+   .qnaBoxes .writeBox button{font-size: 12px;}
 }
 
 
@@ -240,6 +256,14 @@
 
    /* app detail page style */
    .appFramebox>span.frameTop{background-size: cover;}
+
+
+
+  /* qna page style */
+   .qnaBoxes .qnaTable li span{font-size: 12px;}
+   .qnaBoxes .searchSelect{_height:25px; font-size: 12px;}
+   .qnaBoxes .qnaSearchInput{_height: 25px; font-size: 12px;}
+   .qnaBoxes .qnaSearchBtn{}
 }
 
 
@@ -278,7 +302,10 @@
   .appBoxes .appBox>div h2{font-size: 14px;}
 
 
-
+  /* qna page style */
+  .qnaBoxes .qnaTable li span.qnaReg{display: none;}
+  .qnaBoxes .qnaTable li span.qnaId{width: 25%;}
+  .qnaBoxes .qnaTable li span.qnaHit{width: 15%;}
 }
 
 
@@ -379,6 +406,22 @@
 
 
    .appStoreBtns{width: 40%;}
+
+
+  /* qna page style */
+    .qnaBoxes .qnaTable{width: 90%;}
+    .qnaBoxes .qnaTable li span.qnaTit{width: 60%;}
+    .qnaBoxes .qnaTable li span.qnaNum{width: 15%;}
+    .qnaBoxes .qnaTable li span.qnaHit{display: none;}
+
+
+    .qnaBoxes .qnaSearch{flex-wrap: wrap;}
+    .qnaBoxes .searchPaging{width: 90%;}
+    .qnaBoxes .searchSelect{width: clac(30% - 2px);}
+    .qnaBoxes .qnaSearchInput{width: 70%; margin: 0;}
+    .qnaBoxes .qnaSearchBtn{width: 100%; margin-top: 2px;}
+
+    .qnaBoxes .writeBox{width: 90%; margin: 20px auto 0;}
 }
 
 /* 
