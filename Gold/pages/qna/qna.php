@@ -61,16 +61,27 @@
 
         <div class="searchPaging clear">
           <div class="search">
-            <form action="abc.php" name="qnaSearch" class="clear qnaSearch">
+            <form action="/Gold/pages/qna/qna_search_result.php" method="post" name="qnaSearch" class="clear qnaSearch">
               <select name="searchSelect" id="" class="searchSelect">
                 <option value="qnaSearchId">아이디</option>
-                <option value="qnaSearchId">제목</option>
-                <option value="qnaSearchId">내용</option>
+                <option value="qnaSearchTit">제목</option>
+                <!-- <option value="qnaSearchCon">내용</option> -->
               </select>
               <input type="text" name="qnaSearchInput" placeholder="검색어를 입력해주세요." class="qnaSearchInput">
-              <button type="button" class="qnaSearchBtn"><i class="fa fa-search"></i></button>
+              <button type="button" class="qnaSearchBtn"><i class="fa fa-search" onclick="search_check()"></i></button>
+              <script>
+              function search_check(){
+                if(!document.qnaSearch.qnaSearchInput.value){
+                  alert('검색어를 입력해 주세요');
+                  document.qnaSearch.qnaSearchInput.focus();
+                  return;
+                }
+                document.qnaSearch.submit();
+              }
+              </script>
             </form>
           </div>
+          <!-- end of search -->
           <div class="paging">
             <span class="firstPg" onclick="firstPage()"><i class="fa fa-angle-double-left"></i></span>
             <span class="prevPg" onclick="goPrev()"><i class="fa fa-angle-left"></i></span>
