@@ -69,7 +69,7 @@
       ?>
 
         <div class="writerInfo">
-          <p>Posted By <?=$ans_id?> <?=$ans_num?> / <?=$ans_reg?> / <?=$ans_hit?></p>
+          <p>Posted By <?=$ans_id?> / <?=$ans_num?> / <?=$ans_reg?> / <?=$ans_hit?></p>
         </div>
 
 
@@ -91,7 +91,7 @@
           <?php
           }else {
           ?>
-          <a href="/Gold/pages/qna/qna.php">돌아가기</a>
+          <a href="/Gold/pages/qna/qna.php" class="ansBack">돌아가기</a>
           <button type="submit" class="ansUpdate" onclick="ansUpdate()">수정</button>
           <?php
           }

@@ -106,8 +106,22 @@
 
 
   /* qna page style */
-  .qnaBoxes .searchSelect{width: 25%;}
-  .qnaBoxes .qnaSearchInput{width: 60%;}
+  .searchSelect{width: 25%;}
+  .qnaSearchInput,
+  .adminSearchInput{width: 60%;}
+
+
+/* admin  page style */
+
+  .admin .adminTabs button{padding: 10px 20px;}
+
+  .admin .msgTable span.msgNum{width:105}
+  .admin .msgTable span.msgId{width:15%;}
+  .admin .msgTable span.msgTit{width:40%;}
+  .admin .msgTable span.msgReg{width:25%;}
+  .admin .msgTable span.msgDelete{width:10%;}
+
+  .admin .msgTable span.msgEmail{display: none;}
 }
 
 
@@ -183,10 +197,12 @@
 
 
    /* qna page style */
-   .qnaBoxes .searchPaging>div{width: 100%;}
-   .qnaBoxes .qnaSearch{display: flex; justify-content: space-evenly;}
-   .qnaBoxes .qnaSearchBtn{width: 10%;}
-   .qnaBoxes .searchPaging>div.paging{justify-content: center;}
+   .searchPaging>div{width: 100%;}
+   .qnaSearch,
+   .adminSearch{display: flex; justify-content: space-evenly;}
+   .qnaSearchBtn,
+   .adminSearchBtn{width: 10%;}
+   .searchPaging>div.paging{justify-content: center;}
 
    .qnaBoxes .writeBox p label{font-size: 12px;}
    .qnaBoxes .writeBox p input{font-size: 12px;}
@@ -270,9 +286,24 @@
 
   /* qna page style */
    .qnaBoxes .qnaTable li span{font-size: 12px;}
-   .qnaBoxes .searchSelect{_height:25px; font-size: 12px;}
-   .qnaBoxes .qnaSearchInput{_height: 25px; font-size: 12px;}
-   .qnaBoxes .qnaSearchBtn{}
+  .searchSelect{_height:25px; font-size: 12px;}
+  .qnaSearchInput,
+  .adminSearchInput{_height: 25px; font-size: 12px;}
+  .qnaSearchBtn,
+  .qnaSearchBtn{_width: 25px; _height: 25px;}
+
+
+  /* admin page style */
+  .admin .adminTabs button{padding: 5px 10px; font-size: 12px;}
+  .admin .msgTable{margin: 10px auto 0;}
+
+  .admin .msgTable span{font-size: 12px; padding: 7px 0;}
+  .admin .msgTable span.msgNum{width:15%;}
+  .admin .msgTable span.msgId{width:20%;}
+  .admin .msgTable span.msgTit{width:50%;}
+  .admin .msgTable span.msgDelete{width:15%;}
+  .admin .msgTable span.msgReg{display: none;}
+
 }
 
 
@@ -328,6 +359,16 @@
   .qnaView .ansResult{flex-wrap: wrap;}
   .qnaView .ansResult p.adminId{width: 100%; height:auto; padding:5px 0;border: 1px solid #d0af51; justify-content:start; margin-bottom: 5px;}
   .qnaView .ansResult p.ansResultTxt{width: 100%;}
+
+
+
+  /* admin page style */
+  .admin .adminTabs{display: flex; justify-content: center;}
+  .admin .adminTabs button{display: block; width: 40px; height: 40px; margin: 0 2px;}
+  .admin .adminTabs button i{display: inline-block; font-size: 18px;}
+  .admin .adminTabs button i.fa-mobile{font-size: 25px;}
+  .admin .adminTabs button b{display: none;}
+
 }
 
 
@@ -439,11 +480,13 @@
     .qnaBoxes .qnaTable li span.qnaHit{display: none;}
 
 
-    .qnaBoxes .qnaSearch{flex-wrap: wrap;}
-    .qnaBoxes .searchPaging{width: 90%;}
-    .qnaBoxes .searchSelect{width: clac(30% - 2px);}
-    .qnaBoxes .qnaSearchInput{width: 70%; margin: 0;}
-    .qnaBoxes .qnaSearchBtn{width: 100%; margin-top: 2px;}
+    .qnaSearch{flex-wrap: wrap;}
+    .searchPaging{width: 90%;}
+    .searchSelect{width: clac(30% - 2px);}
+    .qnaSearchInput,
+    .adminSearchInput{width: 70%; margin: 0;}
+    .qnaSearchBtn,
+    .adminSearchBtn{width: 100%; margin-top: 2px;}
 
     .qnaBoxes .writeBox{width: 90%; margin: 20px auto 0;}
 
@@ -456,6 +499,19 @@
 
 
     .qnaView .ansResult{width: 90%; margin-top: 20px;}
+
+
+    /* admin page style */
+    .admin .msgTable{width: 90%;}
+
+    .admin .msgTable span.msgNum{display: none;}
+    .admin .msgTable span.msgId{width:20%;}
+    .admin .msgTable span.msgTit{width:60%;}
+    .admin .msgTable span.msgDelete{width:20%;}
+/* 
+    .adminSearch{display: flex; justify-content: flex-end; flex-wrap:wrap}
+    .adminPanel div.search{float:right;}
+   */
 
     /* .qnaView .ansResult p.adminId a{width: 100%; text-align: center; margin-top: 3px; padding: 5px 0;} */ 
     /* 480 이하에서 관리자 답변 삭제 버튼 디자인은 취향껏!~  */

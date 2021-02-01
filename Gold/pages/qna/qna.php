@@ -82,6 +82,7 @@
             </form>
           </div>
           <!-- end of search -->
+          
           <div class="paging">
             <span class="firstPg" onclick="firstPage()"><i class="fa fa-angle-double-left"></i></span>
             <span class="prevPg" onclick="goPrev()"><i class="fa fa-angle-left"></i></span>
