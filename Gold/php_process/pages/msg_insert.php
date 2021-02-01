@@ -2,7 +2,9 @@
   $msg_name=$_POST['msgName'];
   $msg_email=$_POST['msgEmail'];
   $msg_tit=$_POST['msgTit'];
+  $msg_tit=addslashes($msg_tit);
   $msg_con=$_POST['msgTxt'];
+  $msg_con=addslashes($msg_con);
   $msg_reg=date("Y-m-d H:i:s");
 
   // echo  $msg_name, $msg_email, $msg_tit, $msg_con, $msg_reg;

@@ -287,7 +287,7 @@
   .btns>a:nth-child(1){width: 49.5%;}
   .btns>a:nth-child(2){width: 49.5%;}
   .btns>a:nth-child(3){width: 100%; background: #d0af51; color: #fff;}
-
+  .btns .commonBtn{width: 49.5%; margin-right: 0; margin-top: 5px;}
 
   .webDesignInput .titleSer{flex-wrap: wrap;}
   .webDesignInput .titleSer p{width: 49.5%;}
@@ -411,9 +411,11 @@
   /* .designInputForm{padding: 5px;} */
 
   .detailDesc p{font-size:12px;}
-  .designRight .webTit h2{font-size:18px;}
+  /* .designRight .webTit h2{font-size:18px;} */
+  .deWeRight .webTit h2,
+  .deWeRight .appTit h2{font-size: 18px;}
 
-  .designRight{width: 100%; float: none; padding: 0 5%;} /* 패딩으로 중앙세팅 */
+  .deWeRight{width: 100%; float: none; padding: 0 5%;} /* 패딩으로 중앙세팅 */
   .detailCon{padding-right:0; width: 70%; margin: auto;} /*마진으로 중앙세팅*/
 
 
