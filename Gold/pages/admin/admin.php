@@ -98,7 +98,7 @@
             <?php
             }
             ?>
-            <!-- ajax code inside here  -> 에이잭스 코드 대신에 li 넣음-->
+            
            
           </ul>
         </div>        
