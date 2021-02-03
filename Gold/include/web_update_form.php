@@ -12,10 +12,10 @@ $web_update_ser=$web_update_row['GOLD_WEB_ser'];
 $web_update_des=$web_update_row['GOLD_WEB_des'];
 $web_update_img=$web_update_row['GOLD_WEB_img'];
 $web_update_mImg=$web_update_row['GOLD_WEB_mimg'];
-$web_detail_thumb=$web_row['GOLD_WEB_thumb'];
+$web_detail_thumb=$web_update_row['GOLD_WEB_thumb'];
 $web_update_cli=$web_update_row['GOLD_WEB_cli'];
 $web_update_reg=$web_update_row['GOLD_WEB_reg'];
-$web_update_domain=$web_row['GOLD_WEB_dom'];
+$web_update_domain=$web_update_row['GOLD_WEB_dom'];
 
 ?>
 
@@ -84,3 +84,17 @@ $web_update_domain=$web_row['GOLD_WEB_dom'];
         </form>
       </div>
       <!-- end of design input form -->
+
+
+
+      
+      <div class="btns">
+        <button type="button" class="commonBtn" id="submitBtn" onclick="updateSubmit()">Update</button>
+      </div>
+
+      <script>
+        function updateSubmit(){
+          document.web_form.submit();
+        }
+
+      </script>

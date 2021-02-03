@@ -116,7 +116,7 @@ $app_detail_reg=$app_row['GOLD_APP_reg'];
               } else {
               ?>
               <div class="productAdminBtns">
-                <button type="button" onclick="location.href='/gold/pages/admin/update_product.php?key=design_update_form&num=<?=$design_detail_num?>'">수정</button>
+                <button type="button" onclick="location.href='/gold/pages/admin/update_product.php?key=app_update_form&num=<?=$app_detail_num?>'">수정</button>
                 <button type="button" onclick="confirmDel()">삭제</button>
               </div>
               <?php
