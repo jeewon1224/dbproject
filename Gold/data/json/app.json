@@ -1,15 +1,5 @@
 [
     {
-        "appnum": "17",
-        "apptitle": "Medicine Reminder",
-        "appser": "20210308",
-        "appdes": "Praesent sit amet nibh non quam vulputate semper id a est. Duis ac diam a augue tempus sagittis. Vestibulum mattis est a tincidunt faucibus. Aenean vel consectetur metus, ut mollis massa. Proin molestie dui sit amet fringilla efficitur. Curabitur feugiat dui metus, gravida ultricies turpis hendrerit ut. Integer molestie rutrum ex sit amet maximus. Quisque nec suscipit nisi. Cras felis velit, euismod ac purus in, semper ornare quam. Morbi et pharetra ligula. Duis dignissim magna felis, nec lobortis sem ornare nec.<br \/>\r\n<br \/>\r\n",
-        "appmain": "app_main_008.jpg",
-        "appthumb": "app_008.jpg",
-        "appclient": "Hanyang Hospital",
-        "appreg": "2021-01-20"
-    },
-    {
         "appnum": "16",
         "apptitle": "Digital Wallet",
         "appser": "20210307",

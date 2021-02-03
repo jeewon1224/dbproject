@@ -11,6 +11,7 @@ body{font-size: 14px; font-family: 'Open Sans', sans-serif; }
 a{text-decoration: none; color:#111;}
 img{display: block;}
 button, input, textarea{outline: 0; font-family: 'Open Sans'; -webkit-appearance:none; border-radius: 0;}
+input[type="checkbox"]{-webkit-appearance:auto; border-radius: 0; border: 1px solid #d0af51;}
 input::placeholder, textarea::placeholder{color: #d0af51;}
 input:focus, textarea:focus{background:#f8f8f8;}
 

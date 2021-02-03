@@ -106,6 +106,25 @@ $web_detail_reg=$web_row['GOLD_WEB_reg'];
                 <a href="/Gold/index.php#contact"><i class="fa fa-arrow-right"></i>Get In Touch With...</a>
               </div>
 
+
+              <?php
+              if($userlevel != 1){
+              ?>
+              <input type="hidden">
+
+              <?php
+              }else{
+
+              ?>
+              <div class="productAdminBtns">
+                <button type="button" onclick="location.href='/Gold/pages/admin/update_web.php?key=web_update_form&num=<?=$web_detail_num?>'">수정</button>
+                <!-- &로 연결하는 것은 , 와 같음 -->
+                <button type="button" onclick="confirmDel()">삭제</button>
+              </div>
+              <?php
+              }
+              ?>
+
           </div>
           <!-- end of web detail Con -->
         </div>
@@ -113,8 +132,8 @@ $web_detail_reg=$web_row['GOLD_WEB_reg'];
         
         <div class="designRight deWeRight">
 
-          <?php include $_SERVER["DOCUMENT_ROOT"]."/Gold/include/web_side_detail.php" ?>
-          <?php include $_SERVER["DOCUMENT_ROOT"]."/Gold/include/app_side_detail.php" ?>
+      <?php include $_SERVER["DOCUMENT_ROOT"]."/Gold/include/web_side_detail.php" ?>
+      <?php include $_SERVER["DOCUMENT_ROOT"]."/Gold/include/app_side_detail.php" ?>
 
 
 

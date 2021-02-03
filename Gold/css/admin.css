@@ -56,19 +56,15 @@
 .memberTab span.memDelete button{background:#d0af51; color: #fff; padding: 3px 10px; font-size: 12px; border: 1px solid #d0af51; outline: 0;}
 
 
-/* admin web tab style */
-.webTab .adminContents{display: flex; flex-wrap: wrap;}
-.webTab .adminContents span{display: flex; align-items: center; justify-content: center;}
-.webTab span.webNum{width: 5%}
-.webTab span.webTit{width: 15%;}
-.webTab span.webSer{width: 10%;}
-.webTab span.webDec{width: 45%;}
-.webTab span.webCli{width: 10%;}
-.webTab span.webDom{width: 15%;}
-.webTab span.webThumb{width: 33.33%;}
-.webTab span.webPc{width: 33.33%;}
-.webTab span.webMo{width: 33.33%;}
+/* admin qna tab style */
+.qnaTab span.qnaCheck{width: 5%;}
+.qnaTab span.qnaNum{width: 15%;}
+.qnaTab span.qnaId{width: 10%;}
+.qnaTab span.qnaTit{width: 45%;}
+.qnaTab span.qnaReg{width: 15%;}
+.qnaTab span.qnaHit{width: 10%;}
 
 
-
-
+.qnaTab .checkDeleteBtn{border: 0; outline: 0; background: #d0af51; color: #fff; padding: 0 30px; height: 30px; margin-top: 10px;}
+.qnaTab .qnaResultBtns{width: 80%; height: auto; margin: auto;}
+.qnaTab .qnaResultBtns button{border: 1px solid #d0af51; outline: 0; text-align: right; background:#d0af51; color: #fff; padding: 5px 30px;}

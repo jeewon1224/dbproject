@@ -94,7 +94,39 @@ $design_detail_reg=$row['GOLD_DE_reg'];
                 <p><?=$design_detail_des?></p>
                 <a href="/Gold/index.php#contact"><i class="fa fa-arrow-right"></i>Get In Touch With...</a>
               </div>
+
+              <?php
+              if($userlevel != 1){
+              ?>
+              <input type="hidden">
+
+              <?php
+              }else{
+
+              ?>
+              <div class="productAdminBtns">
+                <button type="button" onclick="location.href='/Gold/pages/admin/update_product.php?key=design_update_form&num=<?=$design_detail_num?>'">수정</button>
+                <!-- &로 연결하는 것은 , 와 같음 -->
+                <button type="button" onclick="confirmDel()">삭제</button>
+              </div>
+              <?php
+              }
+              ?>
+             
             </div>
+            <script>
+              function confirmDel(){
+              
+              let confirmCheck = confirm('정말로 삭제하시겠습니까?')
+              
+                if(confirmCheck == false){
+                return false;
+
+                } else {
+                location.href='/Gold/php_process/pages/design_detail_delete.php?num=<?=$design_detail_num?>';
+                }
+              }
+            </script>
             <!-- end of design detail Con -->
         </div>
         <!-- end of left box -->

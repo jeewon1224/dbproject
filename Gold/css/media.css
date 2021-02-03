@@ -316,6 +316,25 @@
   .memberTab span.memUpdate{width: 15%;}
   .memberTab span.memDelete{width: 15%;}
   
+
+  /* admin qna tab style */
+  .qnaTab span.qnaNum{display: none;}
+
+  .qnaTab span.qnaCheck{width: 10%;}
+  .qnaTab span.qnaId{width: 10%;}
+  .qnaTab span.qnaTit{width: 55%;}
+  .qnaTab span.qnaReg{width: 15%;}
+  .qnaTab span.qnaHit{width: 10%;}
+
+  .searchPaging{text-align: center;}
+  .qnaTab .checkDeleteBtn{margin-top: 0;}
+
+  .qnaTab .qnaResultBtns{text-align: center;}
+  .qnaTab .qnaResultBtns button{font-size:12px;}
+
+
+  /* detail page admin button style */
+  .productAdminBtns{text-align: center;}
 }
 
 
@@ -381,6 +400,15 @@
   .admin .adminTabs button i.fa-mobile{font-size: 25px;}
   .admin .adminTabs button b{display: none;} */
 
+
+
+  
+  /* admin qna tab style */
+  .qnaTab span.qnaCheck{width: 10%;}
+  .qnaTab span.qnaId{width: 20%;}
+  .qnaTab span.qnaTit{width: 70%;}
+  .qnaTab span.qnaReg{display: none;}
+  .qnaTab span.qnaHit{display: none;}
 }
 
 
