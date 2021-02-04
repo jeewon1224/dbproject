@@ -1,0 +1,82 @@
+[
+    {
+        "appnum": "18",
+        "apptitle": "",
+        "appser": "",
+        "appdes": "Sed accumsan id arcu vitae commodo. Praesent accumsan enim nec sem blandit pulvinar. Nullam sed luctus est, volutpat fermentum dolor. Mauris ut nisl arcu. Donec convallis enim et nulla porta cursus. Integer quis fermentum neque, nec maximus mi. Aenean nec molestie magna. Etiam augue neque, malesuada sed efficitur vitae, sollicitudin vitae libero. Cras id vestibulum eros. Nunc id cursus ante. Phasellus bibendum viverra est eget laoreet. Ut vitae lacinia velit. Aenean ac varius nisl. Vestibulum viverra dapibus commodo. In sodales ante auctor lectus porta fermentum.<br \/><br \/>\r\n<br \/><br \/>\r\n",
+        "appmain": "",
+        "appthumb": "",
+        "appclient": "",
+        "appreg": "2021-02-03"
+    },
+    {
+        "appnum": "16",
+        "apptitle": "Digital Wallet",
+        "appser": "20210307",
+        "appdes": "Sed accumsan id arcu vitae commodo. Praesent accumsan enim nec sem blandit pulvinar. Nullam sed luctus est, volutpat fermentum dolor. Mauris ut nisl arcu. Donec convallis enim et nulla porta cursus. Integer quis fermentum neque, nec maximus mi. Aenean nec molestie magna. Etiam augue neque, malesuada sed efficitur vitae, sollicitudin vitae libero. Cras id vestibulum eros. Nunc id cursus ante. Phasellus bibendum viverra est eget laoreet. Ut vitae lacinia velit. Aenean ac varius nisl. Vestibulum viverra dapibus commodo. In sodales ante auctor lectus porta fermentum.<br \/>\r\n<br \/>\r\n",
+        "appmain": "app_main_007.png",
+        "appthumb": "app_007.png",
+        "appclient": "Dimest",
+        "appreg": "2021-01-20"
+    },
+    {
+        "appnum": "15",
+        "apptitle": "Plant schedule",
+        "appser": "20210306",
+        "appdes": "Donec faucibus diam in orci egestas lacinia. Duis in leo sed urna tincidunt mattis quis sed arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam non interdum felis, eu vulputate ante. In rhoncus, lorem id semper volutpat, nibh nisi tempus lacus, quis consequat odio eros in felis. Sed eget velit sit amet nibh rutrum vulputate. Cras vehicula faucibus mollis. Nam id augue in enim tincidunt hendrerit nec ut est. Vivamus bibendum, enim a tempor accumsan, magna nibh lobortis sapien, efficitur venenatis tortor odio in ipsum. Praesent sed consequat sapien. Suspendisse quis aliquam felis.<br \/>\r\n<br \/>\r\n",
+        "appmain": "app_main_006.png",
+        "appthumb": "app_006.png",
+        "appclient": "Rose",
+        "appreg": "2021-01-20"
+    },
+    {
+        "appnum": "14",
+        "apptitle": "Wallet",
+        "appser": "20210305",
+        "appdes": "Vestibulum pulvinar eu dolor non malesuada. Nunc faucibus dolor massa, sit amet hendrerit risus porta a. Aliquam velit felis, facilisis vitae ornare in, malesuada eget nisl. Phasellus ut sagittis eros, sit amet ultricies justo. Vestibulum id diam finibus, tempus ante quis, scelerisque nisl. In ut lacus posuere, venenatis tellus vel, sollicitudin sem. Vestibulum in nisi at sapien venenatis auctor. In sed sapien at metus vulputate ullamcorper. Sed ac volutpat erat, eu vestibulum turpis. Nulla molestie auctor augue in bibendum.",
+        "appmain": "app_main_005.png",
+        "appthumb": "app_005.png",
+        "appclient": "Jenny",
+        "appreg": "2021-01-20"
+    },
+    {
+        "appnum": "13",
+        "apptitle": "Beranda",
+        "appser": "20210304",
+        "appdes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br \/>\r\n<br \/>\r\n",
+        "appmain": "app_main_004.png",
+        "appthumb": "app_004.png",
+        "appclient": "Beranda",
+        "appreg": "2021-01-19"
+    },
+    {
+        "appnum": "10",
+        "apptitle": "Plant Store",
+        "appser": "20210303",
+        "appdes": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br \/>\r\n<br \/>\r\nLorem Ipsum is simply dummy text of the printing and typesetting industry. <br \/>\r\n<br \/>\r\nLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br \/>\r\n",
+        "appmain": "app_main_003.png",
+        "appthumb": "app_003.png",
+        "appclient": "Planatarium",
+        "appreg": "2021-01-19"
+    },
+    {
+        "appnum": "7",
+        "apptitle": "Portfolio",
+        "appser": "20210302",
+        "appdes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br \/>\r\n<br \/>\r\nLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br \/>\r\n<br \/>\r\n It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br \/>\r\n<br \/>\r\n",
+        "appmain": "app_main_002.jpg",
+        "appthumb": "app_002.jpg",
+        "appclient": "Kim",
+        "appreg": "2021-01-19"
+    },
+    {
+        "appnum": "2",
+        "apptitle": "Tesla Model X",
+        "appser": "20210301",
+        "appdes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan urna et orci ornare feugiat. Suspendisse iaculis ultrices malesuada. <br \/>\r\n<br \/>\r\nVivamus non mi auctor, lacinia nisl ut, bibendum velit. Duis placerat, felis vel tincidunt ultricies, arcu augue pellentesque lectus, et malesuada lorem leo et libero. Fusce eleifend rutrum molestie. Quisque non leo consectetur, rhoncus arcu eu, tristique urna. Curabitur nec rhoncus elit, sed porttitor metus. <br \/>\r\n<br \/>\r\nMaecenas sit amet pharetra urna. Cras sodales ullamcorper leo id interdum. Donec sed urna accumsan, feugiat lorem non, semper justo. Phasellus et ultricies diam. Sed nec purus sollicitudin, placerat nunc sed, molestie dui. Phasellus tincidunt odio a vehicula tristique. Morbi sed lectus risus. Aliquam ut faucibus ipsum.",
+        "appmain": "app_main_001.png",
+        "appthumb": "app_001.png",
+        "appclient": "Tesla",
+        "appreg": "2021-01-19"
+    }
+]
