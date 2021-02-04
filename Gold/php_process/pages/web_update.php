@@ -1,5 +1,8 @@
 
 <?php
+
+  $web_result_num=$_GET['num'];
+
    //web page image upload directory
 
   $web_title = nl2br($_REQUEST['web_title']);
@@ -108,29 +111,16 @@
   include $_SERVER['DOCUMENT_ROOT']."/Gold/php_process/connect/db_connect.php";
 
 
-$sql="insert into gold_web(
-  GOLD_WEB_tit, 
-  GOLD_WEB_ser,
-  GOLD_WEB_des, 
-  GOLD_WEB_img, 
-  GOLD_WEB_mimg, 
-  GOLD_WEB_thumb, 
-  GOLD_WEB_cli, 
-  GOLD_WEB_reg, 
-  GOLD_WEB_dom) 
-  
-  values(
-    '$web_title',
-    '$web_serial',
-    '$web_desc',
-    '$main_name',
-    '$mobile_name',
-    '$thumbnail_name',
-    '$web_client',
-    '$regist_day',
-    '$web_domain'
-   )";
-
+  $sql="update gold_web set 
+  GOLD_WEB_tit='$web_title',
+  GOLD_WEB_ser='$web_serial',
+  GOLD_WEB_des='$web_desc',
+  GOLD_WEB_img='$main_name', 
+  GOLD_WEB_mimg='$mobile_name', 
+  GOLD_WEB_thumb='$thumbnail_name', 
+  GOLD_WEB_cli='$web_client',
+  GOLD_WEB_reg='$regist_day',
+  GOLD_WEB_dom='$web_domain'  where GOLD_WEB_num=$web_result_num";
 
 
    mysqli_query($dbConn, $sql);

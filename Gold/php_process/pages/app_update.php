@@ -77,7 +77,69 @@
   //data base connect
   include $_SERVER['DOCUMENT_ROOT']."/Gold/php_process/connect/db_connect.php";
 
-  $sql="update gold_app set GOLD_APP_tit"
+  $sql="update gold_app set 
+        GOLD_APP_tit='$app_title',
+        GOLD_APP_ser='$app_serial',
+        GOLD_APP_des='$app_desc',
+        GOLD_APP_img='$main_name', 
+        GOLD_APP_thumb='$sub_name', 
+        GOLD_APP_cli='$app_client', 
+        GOLD_APP_reg='$regist_day' where GOLD_APP_num=$app_update_num";
 
 
-  ?>
+  
+
+//     GOLD_APP_tit,
+//     GOLD_APP_ser,
+//     GOLD_APP_des,
+//     GOLD_APP_img,
+//     GOLD_APP_thumb,
+//     GOLD_APP_cli,
+//     GOLD_APP_reg
+//   ) values(
+//     '$app_title',
+//     '$app_serial',
+//     '$app_desc',
+//     '$main_name',
+//     '$sub_name',
+//     '$app_client',
+//     '$regist_day'
+//   )";
+
+mysqli_query($dbConn, $sql);
+
+$sql = "select * from gold_app order by GOLD_APP_num desc";
+
+$app_result = mysqli_query($dbConn, $sql);
+  
+  $arr_result = array();
+  
+  while($app_row = mysqli_fetch_array($app_result)){
+    array_push($arr_result, array(
+      'appnum' => $app_row['GOLD_APP_num'],
+      'apptitle' => $app_row['GOLD_APP_tit'],
+      'appser' => $app_row['GOLD_APP_ser'],
+      'appdes' => $app_row['GOLD_APP_des'],
+      'appmain' => $app_row['GOLD_APP_img'],
+      'appthumb' => $app_row['GOLD_APP_thumb'],
+      'appclient' => $app_row['GOLD_APP_cli'],
+      'appreg' => $app_row['GOLD_APP_reg']
+    ));
+  }
+
+
+
+
+  //make json file
+  file_put_contents($_SERVER['DOCUMENT_ROOT'].'/Gold/data/json/app.json', json_encode($arr_result, JSON_PRETTY_PRINT));
+  
+
+
+  echo "
+  <script>
+  alert('수정이 완료되었습니다.');
+    location.href='/Gold/pages/app/app.php';
+  </script>
+  ";
+
+?>

@@ -116,8 +116,11 @@ $web_detail_reg=$web_row['GOLD_WEB_reg'];
               }else{
 
               ?>
+              
+
+
               <div class="productAdminBtns">
-                <button type="button" onclick="location.href='/Gold/pages/admin/update_web.php?key=web_update_form&num=<?=$web_detail_num?>'">수정</button>
+                <button type="button" onclick="location.href='/Gold/pages/admin/update_product.php?key=web_update_form&num=<?=$web_detail_num?>'">수정</button>
                 <!-- &로 연결하는 것은 , 와 같음 -->
                 <button type="button" onclick="confirmDel()">삭제</button>
               </div>
@@ -127,6 +130,19 @@ $web_detail_reg=$web_row['GOLD_WEB_reg'];
 
           </div>
           <!-- end of web detail Con -->
+
+              <script>
+                function confirmDel(){
+                  let confirmCheck = confirm('정말로 삭제하시겠습니까?')
+                  if(confirmCheck == false){
+                    return false;
+                  } else {
+                    location.href='/gold/php_process/pages/web_detail_delete.php?num=<?=$web_detail_num?>';
+                  }            
+                }
+              </script>
+
+
         </div>
         <!-- end of left box -->
         
