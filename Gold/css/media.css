@@ -24,7 +24,7 @@
   .product .boxRight .productTxt>div>p.hide{display: none;}
   .product .boxRight .productTxt>div>a{width: 45%;}
 
-  .hasTitle.about .title .subTit .subLine,
+  .about .title .subTit .subLine,
   .contact .title .subTit .subLine{width: 30%;}    /*라인 넓이*/
 
   .about .subTit a.subLink,
@@ -256,10 +256,9 @@
   .joinBox .formBtns{margin-top: 10px;}
 
 
-  .hasTitle.about .title .subTit .subLine,
-  .hasTitle .title .subTit .subLine{display:none;}
-  /* .hasTitle.about .title .subTit .subLine,
-  .hasTitle .title .subTit .subLine{width: 60%;} */
+
+  .hasTitle .title .subTit .subLine,
+  .hasTitle .title .subTit .subLine{width: 60%;}
   .hasTitle .subTit a.subLink,
   .hasTitle .subTit a.subLink{width: 35%;}
 
