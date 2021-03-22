@@ -15,6 +15,9 @@ http://rlawldnjs1224.dothome.co.kr/Gold/
 게시글 업로드, 수정, 회원 정보 관리 등의 관리자 기능</br>
 로그인, 로그아웃, 회원가입 기능</br>
 질문 및 답변 관리 기능</br>
+PHP와 SQL로 데이터 입력과 출력</br>
+Ajax를 이용한 json 데이터 출력
+
 </br>
 </br>
 </br>
