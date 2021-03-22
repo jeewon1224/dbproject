@@ -49,11 +49,13 @@ http://rlawldnjs1224.dothome.co.kr/Gold/
 </br>
 </br>
 ## Used Plugin
-Masonry (https://masonry.desandro.com/)
+</br>
+Masonry
 </br>
 </br>
 </br>
 ## Contributing 
+
 기획 50%</br>
 디자인 50%</br>
 퍼블리싱 100%
