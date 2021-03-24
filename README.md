@@ -1,14 +1,16 @@
 # DBproject
 DB Project는 퍼블리싱부터 데이터 베이스 관리까지 통합한 포괄적 기능의 웹사이트입니다.</br>
 웹, 앱 등 다양한 디자인을 감상하고 관련 문의가 가능합니다. 어드민 기능으로 데이터의 입력, 수정, 검색등의 전반적인 관리자 기능을 구현했습니다.</br>
-
-http://rlawldnjs1224.dothome.co.kr/Gold/ 
-</br>
-</br>
 </br>
 ![db](https://user-images.githubusercontent.com/77706798/111935648-3d098c80-8b07-11eb-97e5-de58f42868f8.png)
 </br>
 </br>
+
+## URL
+http://rlawldnjs1224.dothome.co.kr/Gold/
+</br>
+</br>
+
 ## Features
 - 디자인, 웹, 앱 작업물 조회</br>
 - 게시글 업로드, 수정, 회원 정보 관리 등의 관리자 기능</br>
