@@ -6,10 +6,10 @@ http://rlawldnjs1224.dothome.co.kr/Gold/
 </br>
 </br>
 </br>
-## 주요 기능
 ![db](https://user-images.githubusercontent.com/77706798/111935648-3d098c80-8b07-11eb-97e5-de58f42868f8.png)
-
-
+</br>
+</br>
+## Features
 - 디자인, 웹, 앱 작업물 조회</br>
 - 게시글 업로드, 수정, 회원 정보 관리 등의 관리자 기능</br>
 - 로그인, 로그아웃, 회원가입 기능</br>
