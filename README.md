@@ -20,6 +20,7 @@ http://rlawldnjs1224.dothome.co.kr/Gold/
 </br>
 </br>
 </br>
+
 ## Site Structure
 - 기능 구조도
 ![Gold 기능 구조](https://user-images.githubusercontent.com/77706798/111936181-85757a00-8b08-11eb-95f2-5e62e348ebef.png)
